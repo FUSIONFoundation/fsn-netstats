@@ -467,3 +467,12 @@ svg .axis text {
 svg .y.axis .tick:first-child text {
 	opacity: 0;
 }
+
+.small-image{
+	width: 9em;
+	margin: 1em;
+}
+
+.header-top{
+	height:5em !important;
+}
