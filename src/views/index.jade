@@ -19,15 +19,15 @@ block content
             span.small-title best block
             span.big-details {{'#'}}{{ bestBlock | number}}
           div.clearfix
-      div.col-xs-2.stat-holder
-        div.big-info.uncleCount.text-info
-          div.pull-left.icon-full-width
-            i.icon-uncle
-          div.big-details-holder
-            span.small-title uncles&nbsp;
-              span.small (current / last 50)
-            span.big-details {{ bestStats.block.uncles.length }}/{{ uncleCount }}
-          div.clearfix
+      //div.col-xs-2.stat-holder
+      //  div.big-info.uncleCount.text-info
+      //    div.pull-left.icon-full-width
+      //      i.icon-uncle
+      //    div.big-details-holder
+      //      span.small-title uncles&nbsp;
+      //        span.small (current / last 50)
+      //      span.big-details {{ bestStats.block.uncles.length }}/{{ uncleCount }}
+      //    div.clearfix
       div.col-xs-2.stat-holder
         div.big-info.blocktime(class="{{ lastBlock | timeClass : true }}")
           div.pull-left.icon-full-width
@@ -130,13 +130,13 @@ block content
                     minerblock(blocks="{{miner.blocks}}")
                     div.clearfix
 
-              div.col-xs-3.stat-holder
-                div.big-info.chart.text-info
-                  //- i.icon-uncle
-                  span.small-title uncle count&nbsp;
-                    span.small (25 blocks per bar)
-                  //- span.small-value {{ bestStats.block.uncles.length }}/{{ uncleCount }}
-                  sparkchart.big-details.spark-uncles(data="{{uncleCountChart.join(',')}}")
+              //div.col-xs-3.stat-holder
+              //  div.big-info.chart.text-info
+              //    //- i.icon-uncle
+              //    span.small-title uncle count&nbsp;
+              //      span.small (25 blocks per bar)
+              //    //- span.small-value {{ bestStats.block.uncles.length }}/{{ uncleCount }}
+              //    sparkchart.big-details.spark-uncles(data="{{uncleCountChart.join(',')}}")
 
               div.col-xs-3.stat-holder
                 div.big-info.chart.text-info
