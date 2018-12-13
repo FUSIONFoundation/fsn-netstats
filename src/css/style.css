@@ -11,8 +11,24 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.text-difficulty{
+	color:#d0031c !important;
+}
+
+.text-danger{
+	color:#457f07 !important;
+}
+
+.text-success{
+	color: #b68610 !important;
+}
 .stat-holder{
 	background:#fff !important;
+	border: 1px solid #e4e9f0 !important;
+}
+
+.text-info{
+	color:#2b66b0 !important;
 }
 
 table td {
