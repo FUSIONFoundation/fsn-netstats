@@ -15,6 +15,14 @@ body {
 	color:#d0031c !important;
 }
 
+.table {
+	border-color:#bec5cf !important;
+}
+
+.table-striped>tbody>tr:nth-child(odd) {
+	background-color: #f5f7fa !important;
+}
+
 .text-danger{
 	color:#457f07 !important;
 }
@@ -496,4 +504,8 @@ svg .y.axis .tick:first-child text {
 
 .header-top{
 	height:5em !important;
+}
+
+table td, table th {
+	border-color: #bec5cf !important;
 }
