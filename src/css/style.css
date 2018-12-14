@@ -2,6 +2,7 @@ html {
 	width: 100%;
 }
 
+
 body {
 	width: 100%;
 	min-width: 1900px;
@@ -9,6 +10,7 @@ body {
 	background:#fff !important;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	font-family: 'Roboto', sans-serif !important;
 }
 
 .text-difficulty{
@@ -28,7 +30,7 @@ body {
 }
 
 .text-success{
-	color: #b68610 !important;
+	color: #457f07 !important;
 }
 .stat-holder{
 	background:#fff !important;
@@ -72,9 +74,17 @@ table td {
 	background: #FFD162;
 }
 
+.text-warning{
+	color:#b58409 !important;
+}
+
 .bg-orange,
 .text-orange .propagationBox {
 	background: #ff8a00;
+}
+
+.text-danger{
+	color:#d0021b !important;
 }
 
 .bg-danger,
@@ -487,7 +497,7 @@ svg .axis text {
 	fill: #777;
 	font-size: 10px;
 	letter-spacing: 0px;
-	font-family: "Source Sans Pro";
+	font-family: "Roboto";
 	font-weight: 700;
 	-webkit-font-smoothing: subpixel-antialiased;
 	-moz-osx-font-smoothing: auto;
@@ -504,6 +514,10 @@ svg .y.axis .tick:first-child text {
 
 .header-top{
 	height:5em !important;
+}
+
+path {
+	fill:#bec5cf !important;
 }
 
 table td, table th {
