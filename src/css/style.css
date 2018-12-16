@@ -516,7 +516,7 @@ svg .y.axis .tick:first-child text {
 	height:5em !important;
 }
 
-path {
+.datamap g path {
 	fill:#bec5cf !important;
 }
 
