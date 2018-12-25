@@ -157,6 +157,10 @@ function socketAction(action, data)
 			// Init hashrate
 			if( _.isUndefined(node.stats.hashrate) )
 				node.stats.hashrate = 0;
+			if( _.isUndefined(node.stats.ticketNumber) )
+				node.stats.ticketNumber = 0;
+			if( _.isUndefined(node.stats.weight) )
+				node.stats.weight = 0;
 
 			// Init latency
 			latencyFilter(node);
@@ -200,6 +204,10 @@ function socketAction(action, data)
 
 				if( _.isUndefined(data.stats.hashrate) )
 					data.stats.hashrate = 0;
+				if( _.isUndefined(data.stats.ticketNumber) )
+					data.stats.ticketNumber = 0;
+				if( _.isUndefined(data.stats.weight) )
+					data.stats.weight = 0;
 
 				if( foundNode.stats.block.number < data.stats.block.number )
 				{
@@ -292,6 +300,8 @@ function socketAction(action, data)
 						'stats.active': data.stats.active,
 						'stats.mining': data.stats.mining,
 						'stats.hashrate': data.stats.hashrate,
+						'stats.ticketNumber': data.stats.ticketNumber,
+						'stats.weight': data.stats.weight,
 						'stats.peers': data.stats.peers,
 						'stats.gasPrice': data.stats.gasPrice,
 						'stats.uptime': data.stats.uptime

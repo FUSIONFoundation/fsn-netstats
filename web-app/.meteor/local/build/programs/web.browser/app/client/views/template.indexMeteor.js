@@ -350,7 +350,7 @@ Template["indexMeteor"] = new Template("Template.indexMeteor", (function() {
     "data-toggle": "tooltip",
     "data-placement": "top",
     title: "Is mining",
-    "ng-click": "orderTable(['-stats.hashrate'], false)",
+    "ng-click": "orderTable(['-stats.weight'], false)",
     "class": "icon-mining"
   })), "\n            ", HTML.TH(HTML.I({
     "data-toggle": "tooltip",

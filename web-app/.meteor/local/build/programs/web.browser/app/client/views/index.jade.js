@@ -268,7 +268,7 @@ Template["index"] = new Template("Template.index", (function() {
     "data-toggle": "tooltip",
     "data-placement": "top",
     title: "Is mining",
-    "ng-click": "orderTable(['-stats.hashrate'], false)"
+    "ng-click": "orderTable(['-stats.weight'], false)"
   })), "\n", HTML.TH(HTML.I({
     "class": "icon-group",
     "data-toggle": "tooltip",
