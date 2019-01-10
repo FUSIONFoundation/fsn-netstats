@@ -179,7 +179,6 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, $localStorage, soc
 
 			case "add":
 				var index = findIndex({id: data.id});
-
 				// if( addNewNode(data) )
 				// 	toastr['success']("New node "+ $scope.nodes[findIndex({id: data.id})].info.name +" connected!", "New node!");
 				// else
@@ -190,6 +189,7 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, $localStorage, soc
 			// TODO: Remove when everybody updates api client to 0.0.12
 			case "update":
 				var index = findIndex({id: data.id});
+			
 
 				if( index >= 0 && !_.isUndefined($scope.nodes[index]) && !_.isUndefined($scope.nodes[index].stats) )
 				{
@@ -310,6 +310,7 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, $localStorage, soc
 				if( index >= 0 )
 				{
 					$scope.nodes[index].info = data.info;
+					$scope.nodes[index].info.name = $scope.nodes[index].info.name.substr(0,32)
 
 					if( _.isUndefined($scope.nodes[index].pinned) )
 						$scope.nodes[index].pinned = false;
