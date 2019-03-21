@@ -38,12 +38,6 @@ block content
             i.icon-custom-cube
             span.text-success {{'#'}}{{ bestBlock | number}}
         div.stat-holder
-          span.small-title uncles&nbsp;
-          span.small-title (current / last 50)
-          div.stat-row.uncleCount
-            i.icon-custom-uncles
-            span.text-success {{ bestStats.block.uncles.length }}/{{ uncleCount }}
-        div.stat-holder
           span.small-title last block
           div.stat-row.blocktime(class="{{ lastBlock | timeClass : true }}")
             i.icon-custom-timer
@@ -61,11 +55,6 @@ block content
           div.stat-row.difficulty
             i.icon-custom-fire
             span.text-orange(ng-bind-html="avgHashrate | networkHashrateFilter")
-        div.stat-holder
-          span.small-title difficulty
-          div.stat-row.difficulty
-            i.icon-custom-piece
-            span.text-danger {{ lastDifficulty | totalDifficultyFilter }}
 
     div.container-grid(ng-cloak)
         div.stat-holder-small
@@ -87,11 +76,6 @@ block content
             i.icon-custom-pricetag-green.text-success
             span.small-title gas limit
             span.small-value {{ bestStats.block.gasLimit }} gas
-        div.stat-holder-small
-          div.page-latency(class="{{ {active: true, latency: latency} | latencyClass }}")
-            i.icon-custom-fullclock-green.text-success
-            span.small-title page latency
-            span.small-value {{latency}} ms
         div.stat-holder-small
           div.uptime(class="{{ upTimeTotal | upTimeClass : true }}")
             i.icon-custom-buld-green.text-success
@@ -129,14 +113,6 @@ block content
               div.block-count(class="{{miner.blocks | minerBlocksClass : 'text-'}}") {{miner.blocks}}
               minerblock(blocks="{{miner.blocks}}")
               div.clearfix
-
-        div.col-xs-6.col-sm-4.col-md-3.stat-holder-graph
-          div.big-info.chart.text-info
-            //- i.icon-uncle
-            span.small-title uncle count&nbsp;
-              span.small.hidden-xs (25 blocks per bar)
-            //- span.small-value {{ bestStats.block.uncles.length }}/{{ uncleCount }}
-            sparkchart.big-details.spark-uncles(data="{{uncleCountChart.join(',')}}")
 
         div.col-xs-6.col-sm-4.col-md-3.stat-holder-graph
           div.big-info.chart.text-info
