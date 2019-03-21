@@ -82,7 +82,7 @@ module.exports = function(grunt) {
       files: ['**/*'],
       tasks: ['default'],
       options: {
-        livereload: true,
+        livereload: false,
         reload: false
       },
     },
@@ -125,7 +125,7 @@ module.exports = function(grunt) {
 					{
 						expand: true,
 						cwd: 'src/images/',
-						src: ['*.ico'],
+						src: ['*'],
 						dest: 'dist/',
 						filter: 'isFile'
 					},

@@ -1,9 +1,7 @@
 //- index.jade
 extends ./layout.jade
-
 block content
- Header header
-  div.main-container(ng-controller='StatsCtrl')
+ div.main-container(ng-controller='StatsCtrl')
     div.container-grid
         div.stat-holder
           span.small-title best block
@@ -162,12 +160,6 @@ block content
                 span.path1
                 span.path2
             th.hidden-xs
-              i.icon-custom-pricetag-green(data-toggle="tooltip", data-placement="top", title="Tickets", ng-click="orderTable(['-stats.block.ticketNumber.length'], false)")
-            th.th-blocktime
-              i.icon-custom-timer-green(data-toggle="tooltip", data-placement="top", title="Last block time", ng-click="orderTable(['-stats.block.received'], false)")
-            th.th-peerPropagationTime
-              i.icon-custom-clock-green(data-toggle="tooltip", data-placement="top", title="Propagation time", ng-click="orderTable(['-stats.block.number', 'stats.block.propagation'], false)")
-                span.path1
                 span.path2
                 span.path3
             th.th-peerPropagationChart
