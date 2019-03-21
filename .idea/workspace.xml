@@ -26,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+            <state relative-caret-position="210">
+              <caret line="7" column="73" selection-start-line="4" selection-start-column="2" selection-end-line="7" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -62,8 +62,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/utils/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="369">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/collection.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1968">
+              <caret line="48" column="70" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -81,7 +90,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>source</find>
       <find>path</find>
       <find>big-info</find>
       <find>last blocks miners</find>
@@ -111,6 +119,7 @@
       <find>title</find>
       <find>Callisto Network STats</find>
       <find>nodemap</find>
+      <find>trusted</find>
     </findStrings>
     <replaceStrings>
       <replace>062144</replace>
@@ -132,6 +141,7 @@
         <option value="$PROJECT_DIR$/lib/node.js" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/src/views/layout.jade" />
+        <option value="$PROJECT_DIR$/lib/utils/config.js" />
         <option value="$PROJECT_DIR$/src/views/index.jade" />
       </list>
     </option>
@@ -246,12 +256,12 @@
       <workItem from="1552328950958" duration="249000" />
       <workItem from="1553162067683" duration="788000" />
       <workItem from="1553163789150" duration="3234000" />
-      <workItem from="1553170075472" duration="2023000" />
+      <workItem from="1553170075472" duration="2531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17982000" />
+    <option name="totallyTimeSpent" value="18490000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,13 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/utils/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39934">
@@ -438,10 +441,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1968">
+          <caret line="48" column="70" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+        <state relative-caret-position="210">
+          <caret line="7" column="73" selection-start-line="4" selection-start-column="2" selection-end-line="7" selection-end-column="73" />
         </state>
       </provider>
     </entry>
