@@ -37,12 +37,12 @@ table td {
 
 .bg-success,
 .text-success .propagationBox {
-	background: #34c88a;
-  color: #34C88A;
+	background: #062144;
+  color: #062144;
 }
 
 .text-success > span {
-  color: #34C88A;
+  color: #062144;
 }
 
 .bg-info,
@@ -100,7 +100,7 @@ table td {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: #34C88A;
+  background-color: #062144;
   padding: 0 30px;
   min-height: 40px;
   margin: 8px auto;
@@ -431,7 +431,7 @@ nodepropagchart {
 }
 
 .table>thead>tr>th>i {
-  color: #34C88A;
+  color: #062144;
 }
 
 .table-container {
@@ -871,7 +871,7 @@ svg .y.axis .tick:first-child text {
   user-select: none;
 }
 .Footer-top-list-element:hover {
-  color: #34c88a;
+  color: #062144;
   cursor: pointer;
 }
 .Footer-bottom {
@@ -925,7 +925,7 @@ svg .y.axis .tick:first-child text {
   }
 }
 .Footer-bottom-content-element:hover {
-  color: #34c88a;
+  color: #062144;
   cursor: pointer;
 }
 .Footer-bottom-content-links {
@@ -966,4 +966,14 @@ svg .y.axis .tick:first-child text {
   .banner > h5 {
     margin-left: 0;
   }
+}
+
+.icon-custom-check-green .path1:before {
+	content: "\e904";
+	color: #062144;
+}
+
+.icon-custom-clock-green .path1:before {
+	content: "\e909";
+	color: #062144;
 }
