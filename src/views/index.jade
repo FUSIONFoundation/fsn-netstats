@@ -162,7 +162,7 @@ block content
                 span.path1
                 span.path2
             th.hidden-xs
-              i.icon-custom-uncles-green(data-toggle="tooltip", data-placement="top", title="Uncles", ng-click="orderTable(['-stats.block.uncles.length'], false)")
+              i.icon-custom-pricetag-green(data-toggle="tooltip", data-placement="top", title="Tickets", ng-click="orderTable(['-stats.block.tickets.length'], false)")
             th.th-blocktime
               i.icon-custom-timer-green(data-toggle="tooltip", data-placement="top", title="Last block time", ng-click="orderTable(['-stats.block.received'], false)")
             th.th-peerPropagationTime
@@ -203,7 +203,7 @@ block content
             td(class="{{ node.stats | blockClass : bestBlock }}").hidden-xs.hidden-sm.hidden-md
               span.small {{node.stats.block.totalDifficulty | number}}
             td(style="padding-left: 14px;").hidden-xs {{node.stats.block.transactions.length || 0}}
-            td(style="padding-left: 14px;").hidden-xs {{node.stats.block.uncles.length || 0}}
+            td(style="padding-left: 14px;").hidden-xs {{node.stats.block.tickets.length || 0}}
             td(class="{{ node.stats.block.received | timeClass : node.stats.active }}") {{node.stats.block.received | blockTimeFilter }}
             td(class="{{ node.stats | propagationTimeClass : bestBlock }}")
               div.propagationBox
