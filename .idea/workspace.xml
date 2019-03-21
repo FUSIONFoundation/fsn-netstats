@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d8916823-e5d0-42ab-a869-6bd9f1ff2ab0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index.jade" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.jade" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/layout.jade" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/layout.jade" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,11 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="73" selection-start-line="4" selection-start-column="2" selection-end-line="7" selection-end-column="73" />
+            <state relative-caret-position="41">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -41,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/layout.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="369">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -140,9 +139,9 @@
         <option value="$PROJECT_DIR$/src/css/style.css" />
         <option value="$PROJECT_DIR$/lib/node.js" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/src/views/layout.jade" />
         <option value="$PROJECT_DIR$/lib/utils/config.js" />
         <option value="$PROJECT_DIR$/src/views/index.jade" />
+        <option value="$PROJECT_DIR$/src/views/layout.jade" />
       </list>
     </option>
   </component>
@@ -256,12 +255,12 @@
       <workItem from="1552328950958" duration="249000" />
       <workItem from="1553162067683" duration="788000" />
       <workItem from="1553163789150" duration="3234000" />
-      <workItem from="1553170075472" duration="2531000" />
+      <workItem from="1553170075472" duration="3360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18490000" />
+    <option name="totallyTimeSpent" value="19319000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -434,13 +433,6 @@
     <entry file="file://$PROJECT_DIR$/src/images/fsn-logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/layout.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/utils/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
@@ -457,8 +449,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="73" selection-start-line="4" selection-start-column="2" selection-end-line="7" selection-end-column="73" />
+        <state relative-caret-position="41">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
