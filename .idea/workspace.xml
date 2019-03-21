@@ -81,8 +81,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>active-nodes</find>
-      <find>.text-warning</find>
       <find>source</find>
       <find>path</find>
       <find>big-info</find>
@@ -110,6 +108,8 @@
       <find>image</find>
       <find>false</find>
       <find>copy</find>
+      <find>title</find>
+      <find>Callisto Network STats</find>
       <find>nodemap</find>
     </findStrings>
     <replaceStrings>
