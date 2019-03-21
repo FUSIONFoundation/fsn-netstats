@@ -52,7 +52,7 @@ block content
           div.big-details-holder
             span.small-title difficulty
             span.big-details
-              span.small-hash {{ lastDifficulty | number }}
+              span.small-hash {{ lastDifficulty | totalDifficultyFilter }}
           div.clearfix
 
       div.clearfix
@@ -77,7 +77,7 @@ block content
               span.small-value {{latency}} ms
 
     div.row(ng-cloak, style="padding-top: 10px")
-      table.table.table-striped
+      table.table
         thead
           tr.text-info
             th.th-nodecheck.hidden-xs

@@ -140,12 +140,6 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, socket, _, toastr)
 					if( _.isUndefined(node.stats.hashrate) )
 						node.stats.hashrate = 0;
 
-					if( _.isUndefined(node.stats.ticketNumber) )
-						node.stats.ticketNumber = 0;
-
-					if( _.isUndefined(node.stats.weight) )
-						node.stats.weight = 0;
-
 					// Init latency
 					latencyFilter(node);
 
@@ -190,12 +184,6 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, socket, _, toastr)
 
 					if( _.isUndefined(data.stats.hashrate) )
 						data.stats.hashrate = 0;
-
-					if( _.isUndefined(data.stats.ticketNumber) )
-						data.stats.ticketNumber = 0;
-
-					if( _.isUndefined(data.stats.weight) )
-						data.stats.weight = 0;
 
 					if( $scope.nodes[index].stats.block.number < data.stats.block.number )
 					{
@@ -279,8 +267,6 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, socket, _, toastr)
 						$scope.nodes[index].stats.active = data.stats.active;
 						$scope.nodes[index].stats.mining = data.stats.mining;
 						$scope.nodes[index].stats.hashrate = data.stats.hashrate;
-						$scope.nodes[index].stats.ticketNumber = data.stats.ticketNumber;
-						$scope.nodes[index].stats.weight = data.stats.weight;
 						$scope.nodes[index].stats.peers = data.stats.peers;
 						$scope.nodes[index].stats.gasPrice = data.stats.gasPrice;
 						$scope.nodes[index].stats.uptime = data.stats.uptime;
@@ -412,16 +398,6 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, socket, _, toastr)
 			if( !_.isUndefined(data.stats) && _.isUndefined(data.stats.hashrate) )
 			{
 				data.stats.hashrate = 0;
-			}
-
-			if( !_.isUndefined(data.stats) && _.isUndefined(data.stats.ticketNumber) )
-			{
-				data.stats.ticketNumber = 0;
-			}
-
-			if( !_.isUndefined(data.stats) && _.isUndefined(data.stats.weight) )
-			{
-				data.stats.weight = 0;
 			}
 
 			data.pinned = false;

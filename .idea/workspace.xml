@@ -2,8 +2,557 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8916823-e5d0-42ab-a869-6bd9f1ff2ab0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.ebextensions/socketupgrade.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PackageForELB.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Kyber-Network-Main-Logo-Inverted.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Kyber-Network-Main-Logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/MEWconnectLogo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/address-card.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/appstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/asset-creation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/check-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/netstats.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/exchange-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/exclamation-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/minimal-icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/minimal-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/minimal-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/minimal-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fsn-logo-old.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fsn-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fusion-logo-old.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fusion-logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fusion-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fusion-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/group-2-copy-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/group-5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/group-6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/group-7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/group-8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/group-9.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon-arrow-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon-arrow-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon-check-green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon-check.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon-edit-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon-edit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon-external-link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon-eye-closed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon-eye.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon-help-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon-help-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon-help.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon-load-tokens.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon-protip.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon-remove-red-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon-remove-red.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon-remove.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon-spinner-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon-view-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon-view.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon-x-orange.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon-x.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/analytics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/angular.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/angular.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/angular.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/d3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/d3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/d3.tip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/datamaps.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/jquery-1.11.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/jquery-1.11.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/jquery-1.11.3.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/jquery.sparkline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/jquery.sparkline.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/lodash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/lodash.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/moment.en.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/ngStorage.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/primus.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/toastr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/topojson.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/netstats.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/lock-in.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/lock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logo-bity-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logo-bity.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logo-coinbase.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logo-ethereum-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logo-ethereum-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logo-kyber-beta-raw.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logo-kyber-beta.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logo-kyber.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logo-ledger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logo-myetherwallet.min.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logo-myetherwallet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logo-myetherwalletcx.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logo-trezor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/monitor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/myetherwallet-banner-fun.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/myetherwallet-logo-banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/myetherwallet-logo-square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/myetherwallet-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/notes-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/onboarding_icon-01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/onboarding_icon-02.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/onboarding_icon-03.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/onboarding_icon-04.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/onboarding_icon-05.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/onboarding_icon-06.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/onboarding_icon-07.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/onboarding_icon-08.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/onboarding_icon-09.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/onboarding_icon-10.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/plus-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/print-sidebar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/q-swap.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/san.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/screenshot-v0.0.1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/screenshot-v0.0.2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/screenshot-v0.0.5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ticket-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ticket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/time-lock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/visa-master.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/collection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/express.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/history.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/logger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/css/animation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/css/minimal-icons-codes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/css/minimal-icons-embedded.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/css/minimal-icons-ie7-codes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/css/minimal-icons-ie7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/css/minimal-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/css/toastr.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/fonts/Simple-Line-Icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/fonts/minimal-icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/fonts/minimal-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/fonts/minimal-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/fonts/minimal-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/images/fusion-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/controllers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/directives.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/filters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/angular.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/angular.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/angular.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/d3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/d3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/d3.tip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/jquery-1.11.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/jquery-1.11.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/jquery-1.11.3.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/jquery.sparkline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/jquery.sparkline.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/lodash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/lodash.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/moment.en.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/primus.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/toastr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/views/index.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/views/layout.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/animation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/minimal-icons-codes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/minimal-icons-embedded.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/minimal-icons-ie7-codes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/minimal-icons-ie7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/minimal-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/toastr.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Simple-Line-Icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/minimal-icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/minimal-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/minimal-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/minimal-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/Kyber-Network-Main-Logo-Inverted.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/Kyber-Network-Main-Logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/MEWconnectLogo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/address-card.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/appstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/asset-creation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/check-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/exchange-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/exclamation-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fsn-logo-old.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fsn-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fusion-logo-old.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fusion-logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fusion-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/fusion-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/group-2-copy-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/group-5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/group-6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/group-7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/group-8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/group-9.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-arrow-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-arrow-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-check-green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-check.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-edit-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-edit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-external-link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-eye-closed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-eye.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-help-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-help-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-help.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-load-tokens.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-protip.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-remove-red-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-remove-red.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-remove.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-spinner-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-view-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-view.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-x-orange.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-x.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/lock-in.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/lock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/logo-bity-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/logo-bity.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/logo-coinbase.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/logo-ethereum-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/logo-ethereum-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/logo-kyber-beta-raw.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/logo-kyber-beta.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/logo-kyber.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/logo-ledger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/logo-myetherwallet.min.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/logo-myetherwallet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/logo-myetherwalletcx.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/logo-trezor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/monitor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/myetherwallet-banner-fun.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/myetherwallet-logo-banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/myetherwallet-logo-square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/myetherwallet-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/notes-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/onboarding_icon-01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/onboarding_icon-02.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/onboarding_icon-03.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/onboarding_icon-04.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/onboarding_icon-05.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/onboarding_icon-06.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/onboarding_icon-07.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/onboarding_icon-08.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/onboarding_icon-09.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/onboarding_icon-10.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/plus-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/print-sidebar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/q-swap.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/san.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshot-v0.0.1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshot-v0.0.2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshot-v0.0.5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/ticket-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/ticket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/time-lock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/visa-master.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/controllers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/directives.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/filters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/analytics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/angular.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/angular.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/angular.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/d3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/d3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/d3.tip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/datamaps.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/jquery-1.11.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/jquery-1.11.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/jquery-1.11.3.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/jquery.sparkline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/jquery.sparkline.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/lodash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/lodash.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/moment.en.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/ngStorage.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/primus.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/toastr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/topojson.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/error.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/index.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/layout.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/assets/packages/boilerplate-generator/boilerplate_web.browser.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/assets/packages/boilerplate-generator/boilerplate_web.cordova.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/boot-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/boot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/mini-files.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/npm-shrinkwrap.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/autopublish.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/autopublish.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/autoupdate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/autoupdate.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/base64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/base64.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/binary-heap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/binary-heap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/blaze-tools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/blaze-tools.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/blaze.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/blaze.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/boilerplate-generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/boilerplate-generator.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/callback-hook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/callback-hook.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/check.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/check.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/d3js_d3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/d3js_d3.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/ddp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/ddp.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/deps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/deps.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/ejson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/ejson.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/geojson-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/geojson-utils.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/global-imports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/html-tools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/html-tools.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/htmljs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/htmljs.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/id-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/id-map.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/insecure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/insecure.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/jquery.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/json.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/livedata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/livedata.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/logging.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/logging.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/meteor-platform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/meteor-platform.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/meteor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/meteor.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/minimongo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/minimongo.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/momentjs_moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/momentjs_moment.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/mongo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/mongo.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/mquandalle_jade.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/mquandalle_jade.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/mrt_topojson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/mrt_topojson.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/numeral_numeral.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/numeral_numeral.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/observe-sequence.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/observe-sequence.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/ordered-dict.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/ordered-dict.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/random.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/random.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/reactive-var.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/reactive-var.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/reload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/reload.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/retry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/retry.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/routepolicy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/routepolicy.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/session.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/session.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/spacebars-compiler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/spacebars-compiler.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/spacebars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/spacebars.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/stevezhu_lodash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/stevezhu_lodash.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/templating.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/templating.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/tracker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/tracker.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/ui.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/underscore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/underscore.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/webapp-hashing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/webapp-hashing.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/webapp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/packages/webapp.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/program.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/shell-server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/76a7bab845d191184a9124b7dd8a3472c9b4aa7e.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/76a7bab845d191184a9124b7dd8a3472c9b4aa7e.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/controllers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/helperFunctions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/lib/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/lib/d3.tip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/lib/datamaps.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/lib/jquery.sparkline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/lib/jquery.sparkline.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/lib/moment.en.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/lib/moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/lib/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/lib/primus.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/lib/toastr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/templateHelpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/views/error.jade.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/views/index.jade.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/views/indexMeteor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/views/template.indexMeteor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/views/template.layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/fonts/Simple-Line-Icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/fonts/minimal-icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/fonts/minimal-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/fonts/minimal-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/fonts/minimal-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/images/screenshot-v0.0.1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/images/screenshot-v0.0.2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/images/screenshot-v0.0.5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/images/screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/autopublish.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/autopublish.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/autoupdate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/autoupdate.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/base64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/base64.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/blaze.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/blaze.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/check.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/check.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/d3js_d3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/d3js_d3.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/ddp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/ddp.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/deps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/deps.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/ejson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/ejson.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/geojson-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/geojson-utils.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/global-imports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/htmljs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/htmljs.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/id-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/id-map.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/insecure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/insecure.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/jquery.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/json.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/launch-screen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/launch-screen.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/livedata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/livedata.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/logging.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/logging.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/meteor-platform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/meteor-platform.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/meteor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/meteor.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/minimongo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/minimongo.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/momentjs_moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/momentjs_moment.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/mongo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/mongo.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/mquandalle_jade.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/mquandalle_jade.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/mrt_topojson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/mrt_topojson.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/numeral_numeral.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/numeral_numeral.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/observe-sequence.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/observe-sequence.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/ordered-dict.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/ordered-dict.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/random.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/random.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/reactive-dict.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/reactive-dict.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/reactive-var.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/reactive-var.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/reload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/reload.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/retry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/retry.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/session.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/session.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/spacebars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/spacebars.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/stevezhu_lodash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/stevezhu_lodash.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/templating.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/templating.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/tracker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/tracker.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/ui.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/underscore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/underscore.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/webapp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/packages/webapp.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/program.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/server/.bundle_version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/star.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/db/METEOR-PORT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/db/local.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/db/local.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/db/local.ns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/db/mongod.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/shell/info.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,126 +560,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-959677123">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.0" value="5" />
-          <entry key="project.open.time.1" value="5" />
-          <entry key="project.opened" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="css" value="5" />
-          <entry key="jade" value="5" />
-          <entry key="jpg" value="3" />
-          <entry key="js" value="4" />
-          <entry key="png" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="5" />
-          <entry key="Image" value="4" />
-          <entry key="Jade" value="5" />
-          <entry key="JavaScript" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="250" />
-          <entry key="dummy" value="51" />
-          <entry key="jade" value="155" />
-          <entry key="js" value="49" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="250" />
-          <entry key="Jade" value="183" />
-          <entry key="JavaScript" value="51" />
-          <entry key="PLAIN_TEXT" value="51" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/index.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5094">
-              <caret line="283" column="74" selection-start-line="283" selection-start-column="74" selection-end-line="283" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/controllers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5436">
-              <caret line="302" column="69" selection-start-line="302" selection-start-column="57" selection-end-line="302" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/node.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="103" column="1" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/utils/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/layout.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197712">
-              <caret line="10984" column="1" selection-start-line="10984" selection-start-column="1" selection-end-line="10984" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/filters.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2736">
-              <caret line="152" selection-start-line="152" selection-end-line="152" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -170,28 +601,6 @@
         <option value="$PROJECT_DIR$/lib/node.js" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER">
-    <gruntfile path="$PROJECT_DIR$/Gruntfile.js" />
-  </component>
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-      <path value="$PROJECT_DIR$/web-app/.meteor/local/build/programs/server/package.json" />
-    </packageJsonPaths>
-  </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="310" />
@@ -245,7 +654,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
@@ -276,16 +685,17 @@
       <workItem from="1549208197874" duration="142000" />
       <workItem from="1551965930238" duration="2603000" />
       <workItem from="1552328950958" duration="249000" />
+      <workItem from="1553162067683" duration="289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11937000" />
+    <option name="totallyTimeSpent" value="12226000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="34" width="1920" height="981" extended-state="6" />
+    <frame x="0" y="39" width="3000" height="1831" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17289221" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17548077" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Grunt " order="3" side_tool="true" />
@@ -298,7 +708,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.18963486" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.18948735" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -334,9 +744,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/css/minimal-icons-embedded.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -368,50 +775,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5094">
+        <state relative-caret-position="11603">
           <caret line="283" column="74" selection-start-line="283" selection-start-column="74" selection-end-line="283" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5436">
+        <state relative-caret-position="12382">
           <caret line="302" column="69" selection-start-line="302" selection-start-column="57" selection-end-line="302" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/layout.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="287">
           <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197712">
+        <state relative-caret-position="450344">
           <caret line="10984" column="1" selection-start-line="10984" selection-start-column="1" selection-end-line="10984" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="861">
           <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/filters.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2736">
+        <state relative-caret-position="6232">
           <caret line="152" selection-start-line="152" selection-end-line="152" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/utils/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
