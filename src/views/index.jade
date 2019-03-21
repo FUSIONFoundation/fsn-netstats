@@ -2,34 +2,7 @@
 extends ./layout.jade
 
 block content
-  header.Header
-    .Header-content
-      a(href='/')
-        figure.Header-figure
-          img.Header-logo-desktop(src='https://callisto.network/image/callisto_logo_c.svg', alt='Callisto Logo')
-          img.Header-logo-mobile(src='https://callisto.network/image/mini-logo.svg', alt='Callisto Logo')
-      nav.Header-menu
-        a.Header-menu-mobile
-          i.fas.fa-bars.Header-menu-mobile-icon
-        ul.Header-menu-content
-          li
-            a.Header-menu-content-target(href='https://callisto.network/#roadmap') Roadmap
-          li
-            a.Header-menu-content-target(href='https://callisto.network/airdrop/') Airdrop
-          li
-            a.Header-menu-content-target(href='https://callisto.network/#wallets') Wallets
-          li
-            a.Header-menu-content-target(href='https://callisto.network/#exchanges') Exchanges
-          li
-            a.Header-menu-content-target(href='https://callisto.network/#mining') Mining
-          li
-            a.Header-menu-content-target(href='https://callisto.network/cold-staking/') Cold Staking
-          li
-            a.Header-menu-content-target(href='https://callisto.network/smart-contract-audit/') Audit
-          li
-            a.Header-menu-content-target(href='https://callisto.network/#team') Team
-          li
-            a.Header-menu-content-target(href='/blog/') Blog
+ Header header
   div.main-container(ng-controller='StatsCtrl')
     div.container-grid
         div.stat-holder
