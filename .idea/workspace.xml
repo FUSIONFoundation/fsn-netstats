@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d8916823-e5d0-42ab-a869-6bd9f1ff2ab0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
+            <state relative-caret-position="8241">
               <caret line="201" column="90" selection-start-line="201" selection-start-column="90" selection-end-line="201" selection-end-column="90" />
             </state>
           </provider>
@@ -52,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/node.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="109" column="10" lean-forward="true" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+            <state relative-caret-position="410">
+              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -70,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/collection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1968">
-              <caret line="48" column="70" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="70" />
+            <state relative-caret-position="519">
+              <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -89,8 +88,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>last blocks miners</find>
-      <find>text-succes</find>
       <find>jade</find>
       <find>::ffff:</find>
       <find>Node.prototype.setGeo = function(ip)</find>
@@ -119,6 +116,8 @@
       <find>Tickets</find>
       <find>trusted.</find>
       <find>ticketNumber</find>
+      <find>data.ip</find>
+      <find>apply</find>
     </findStrings>
     <replaceStrings>
       <replace>062144</replace>
@@ -156,6 +155,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,6 +176,11 @@
             <path>
               <item name="fsn-netstats" type="b2602c69:ProjectViewProjectNode" />
               <item name="fsn-netstats" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fsn-netstats" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fsn-netstats" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -188,7 +193,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,12 +261,14 @@
       <workItem from="1553163789150" duration="3234000" />
       <workItem from="1553170075472" duration="3959000" />
       <workItem from="1553180997518" duration="37000" />
-      <workItem from="1553188539616" duration="875000" />
+      <workItem from="1553188539616" duration="1698000" />
+      <workItem from="1553206158386" duration="629000" />
+      <workItem from="1553333340348" duration="277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20830000" />
+    <option name="totallyTimeSpent" value="22559000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -275,8 +281,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="39" width="3000" height="1831" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18543956" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19093406" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Grunt " order="3" side_tool="true" />
@@ -289,7 +296,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32965606" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.18948735" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.18948735" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -414,6 +421,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8241">
+          <caret line="201" column="90" selection-start-line="201" selection-start-column="90" selection-end-line="201" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5207">
@@ -428,6 +442,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39934">
+          <caret line="974" selection-start-line="974" selection-end-line="974" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/utils/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
@@ -437,29 +458,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/collection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1968">
-          <caret line="48" column="70" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39934">
-          <caret line="974" selection-start-line="974" selection-end-line="974" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="201" column="90" selection-start-line="201" selection-start-column="90" selection-end-line="201" selection-end-column="90" />
+        <state relative-caret-position="519">
+          <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/node.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="109" column="10" lean-forward="true" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+        <state relative-caret-position="410">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
