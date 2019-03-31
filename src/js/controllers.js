@@ -300,8 +300,9 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, $localStorage, soc
 				if( index >= 0 )
 				{
 					$scope.nodes[index].info = data.info;
+                    $scope.nodes[index].info.name = $scope.nodes[index].info.name.substr(0,32)
 
-					if( _.isUndefined($scope.nodes[index].pinned) )
+                    if( _.isUndefined($scope.nodes[index].pinned) )
 						$scope.nodes[index].pinned = false;
 
 					// Init latency
