@@ -45,8 +45,8 @@ block content
         div.stat-holder-small
           div.gasprice.text-info
             i.icon-custom-pricetag-green.text-success
-            span.small-title gas limit
-            span.small-value {{ bestStats.block.gasLimit }} gas
+            span.small-title tickets
+            span.small-value {{ bestStats.block.ticketNumber }}
         div.stat-holder-small
           div.uptime(class="{{ upTimeTotal | upTimeClass : true }}")
             i.icon-custom-buld-green.text-success

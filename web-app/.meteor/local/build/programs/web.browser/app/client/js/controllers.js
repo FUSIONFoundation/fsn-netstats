@@ -586,7 +586,7 @@ function updateBestBlock()
 		var bestBlock =  Nodes.findOne({'stats.block.number': {$exists: true}},{sort: {'stats.block.number': -1}});
 		if( bestBlock && bestBlock.stats.block.number !== Blockchain.findOne().bestBlock )
 		{
-console.log('bestblock', bestBlock.stats.block.number);
+			console.log('bestblock', bestBlock.stats.block.number);
 
 			Blockchain.update('meta', {$set: {
 				bestBlock: bestBlock.stats.block.number,
