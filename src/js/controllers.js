@@ -22,7 +22,7 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, $localStorage, soc
 	$scope.bestStats = {};
 
     $scope.lastGasLimit = _.fill(Array(MAX_BINS), 2);
-    $scope.ticketNumber = _.fill(Array(MAX_BINS), 2);
+    $scope.lastTicketNumber = _.fill(Array(MAX_BINS), 2);
 	$scope.lastBlocksTime = _.fill(Array(MAX_BINS), 2);
 	$scope.difficultyChart = _.fill(Array(MAX_BINS), 2);
 	$scope.transactionDensity = _.fill(Array(MAX_BINS), 2);
@@ -338,8 +338,9 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, $localStorage, soc
 					$scope.lastGasLimit = data.gasLimit;
 
 				console.log(data);
-                if( !_.isEqual($scope.ticketNumber, data.ticketNumber) && data.ticketNumber.length >= MAX_BINS)
-                    $scope.ticketNumber = data.ticketNumber;
+
+                if( !_.isEqual($scope.lastTicketNumber, data.ticketNumber) && data.ticketNumber.length >= MAX_BINS )
+                    $scope.lastTicketNumber = data.ticketNumber;
 
 				if( !_.isEqual($scope.lastBlocksTime, data.blocktime) && data.blocktime.length >= MAX_BINS )
 					$scope.lastBlocksTime = data.blocktime;
