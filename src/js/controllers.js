@@ -337,7 +337,7 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, $localStorage, soc
 				if( !_.isEqual($scope.lastGasLimit, data.gasLimit) && data.gasLimit.length >= MAX_BINS )
 					$scope.lastGasLimit = data.gasLimit;
 
-				console.log("Ticket Number Is =>" + data.ticketNumber);
+				console.log(data);
                 if( !_.isEqual($scope.ticketNumber, data.ticketNumber) && data.ticketNumber.length >= MAX_BINS)
                     $scope.ticketNumber = data.ticketNumber;
 
