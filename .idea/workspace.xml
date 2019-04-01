@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8916823-e5d0-42ab-a869-6bd9f1ff2ab0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/views/index.jade" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.jade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/controllers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/controllers.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,7 @@
           <entry key="Image" value="6" />
           <entry key="JSON" value="2" />
           <entry key="Jade" value="7" />
-          <entry key="JavaScript" value="9" />
+          <entry key="JavaScript" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -53,8 +53,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="250" />
-          <entry key="Jade" value="380" />
-          <entry key="JavaScript" value="54" />
+          <entry key="Jade" value="416" />
+          <entry key="JavaScript" value="161" />
           <entry key="PLAIN_TEXT" value="51" />
         </counts>
       </usages-collector>
@@ -62,20 +62,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/controllers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="581" column="44" selection-start-line="581" selection-start-column="44" selection-end-line="581" selection-end-column="44" />
+            <state relative-caret-position="123">
+              <caret line="91" column="70" lean-forward="true" selection-start-line="91" selection-start-column="70" selection-end-line="91" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -94,6 +85,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="827">
               <caret line="259" lean-forward="true" selection-start-line="259" selection-end-line="259" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/controllers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="339" column="28" selection-start-line="339" selection-start-column="28" selection-end-line="339" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -123,6 +123,13 @@
       <find>directive</find>
       <find>gas limit</find>
       <find>bestStats</find>
+      <find>tickets</find>
+      <find>lastGasLimit</find>
+      <find>ticketNumber</find>
+      <find>socketAction</find>
+      <find>transactionDensity</find>
+      <find>gasLimit</find>
+      <find>ticketN</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -143,8 +150,9 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/views/layout.jade" />
         <option value="$PROJECT_DIR$/src/js/directives.js" />
-        <option value="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/controllers.js" />
         <option value="$PROJECT_DIR$/src/views/index.jade" />
+        <option value="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/controllers.js" />
+        <option value="$PROJECT_DIR$/src/js/controllers.js" />
       </list>
     </option>
   </component>
@@ -185,36 +193,13 @@
             <path>
               <item name="fsn-netstats" type="b2602c69:ProjectViewProjectNode" />
               <item name="fsn-netstats" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fsn-netstats" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fsn-netstats" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fsn-netstats" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fsn-netstats" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fsn-netstats" type="b2602c69:ProjectViewProjectNode" />
               <item name="fsn-netstats" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fsn-netstats" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fsn-netstats" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fsn-netstats" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fsn-netstats" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -285,15 +270,16 @@
       <workItem from="1553728567751" duration="775000" />
       <workItem from="1553791828475" duration="2282000" />
       <workItem from="1553807439144" duration="286000" />
-      <workItem from="1554135158065" duration="349000" />
+      <workItem from="1554135158065" duration="932000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15913000" />
+    <option name="totallyTimeSpent" value="16496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1920" height="981" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18303095" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -438,6 +424,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/.meteor/local/build/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="381" column="12" selection-start-line="381" selection-start-column="12" selection-end-line="381" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="91" column="70" lean-forward="true" selection-start-line="91" selection-start-column="70" selection-end-line="91" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/directives.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="827">
@@ -445,17 +448,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/controllers.js">
+    <entry file="file://$PROJECT_DIR$/src/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="581" column="44" selection-start-line="581" selection-start-column="44" selection-end-line="581" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+        <state relative-caret-position="226">
+          <caret line="339" column="28" selection-start-line="339" selection-start-column="28" selection-end-line="339" selection-end-column="28" />
         </state>
       </provider>
     </entry>
