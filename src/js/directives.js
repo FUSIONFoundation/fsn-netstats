@@ -258,23 +258,6 @@ angular.module('netStatsApp.directives', [])
 						done: function(datamap) {
 							var ev;
 
-							var zoomListener = d3.behavior.zoom()
-								.size([width, height])
-								.scaleExtent([1, 3])
-								.on("zoom", redraw)
-								.on("zoomend", animadraw);
-
-							function redraw() {
-								datamap.svg.select(".datamaps-subunits").attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
-								datamap.svg.select(".bubbles").selectAll("circle")
-									.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")")
-									.attr("r", 3/d3.event.scale);
-
-								ev = d3.event;
-							}
-
-							zoomListener(datamap.svg);
-
 							function animadraw() {
 								var x = Math.min(0, Math.max(ev.translate[0], (-1) * width * (ev.scale-1)));
 								var y = Math.min(0, Math.max(ev.translate[1], (-1) * height * (ev.scale-1)));
