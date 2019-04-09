@@ -462,7 +462,14 @@ angular.module('netStatsApp.filters', [])
 			tooltip.push(string);
 		}
 
-		if(node.geo !== null)
+        if(node.info.ip !== '') {
+            string = "IP: <b>" + node.info.ip + "</b>";
+
+            tooltip.push(string);
+        }
+
+
+        if(node.geo !== null)
 		{
 			string = "Location: <b>";
 
