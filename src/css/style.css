@@ -977,3 +977,10 @@ svg .y.axis .tick:first-child text {
 	content: "\e909";
 	color: #062144;
 }
+
+.bg-white{
+	background-color:white !important;
+}
+.navbar{
+	padding: .5rem 1rem;
+}

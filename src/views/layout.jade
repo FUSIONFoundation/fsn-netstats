@@ -7,7 +7,9 @@ html(ng-app="netStatsApp")
     style(type="text/css") [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak { display: none !important; }
     link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Sunflower:300,500,700')
     link(rel='stylesheet', href='/css/netstats.min.css')
+  nav(style="padding: 10px;").navbar
+    div.container.text-center
+     img#IMG_4(src='fsn-logo.svg', width='125px', height='35px')
   body
     block content
-
     script(src="/js/netstats.min.js")
