@@ -27,6 +27,7 @@ Blockchain.insert({
 	blockPropagationAvg: 0,
     avgHashrate: 0,
     ticketNumber: 0,
+    myTicketNumber: 0,
 	uncleCount: 0,
 	bestStats: {},
 
