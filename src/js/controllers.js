@@ -119,12 +119,12 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, $localStorage, soc
 		console.log('We are scheduling a reconnect operation', opts);
 	})
 	.on('data', function incoming(data) {
-		$scope.$apply(socketAction(data.action, data.data));
+		$scope.$eval(socketAction(data.action, data.data));
 	});
 
 	socket.on('init', function(data)
 	{
-		$scope.$apply(socketAction("init", data.nodes));
+		$scope.$eval(socketAction("init", data.nodes));
 	});
 
 	socket.on('client-latency', function(data)
@@ -211,7 +211,8 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, $localStorage, soc
 						$scope.nodes[index].history = data.history;
 					}
 
-					$scope.nodes[index].stats = data.stats;
+                        $scope.nodes[index].stats = data.stats;
+
 
 					if( !_.isUndefined(data.stats.latency) && _.get($scope.nodes[index], 'stats.latency', 0) !== data.stats.latency )
 					{
@@ -275,12 +276,12 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, $localStorage, soc
 
 					if( !_.isUndefined(node) && !_.isUndefined(node.stats) )
 					{
-						$scope.nodes[index].stats.active = data.stats.active;
-						$scope.nodes[index].stats.mining = data.stats.mining;
-						$scope.nodes[index].stats.hashrate = data.stats.hashrate;
-						$scope.nodes[index].stats.peers = data.stats.peers;
-						$scope.nodes[index].stats.gasPrice = data.stats.gasPrice;
-						$scope.nodes[index].stats.uptime = data.stats.uptime;
+                            $scope.nodes[index].stats.active = data.stats.active;
+                            $scope.nodes[index].stats.mining = data.stats.mining;
+                            $scope.nodes[index].stats.hashrate = data.stats.hashrate;
+                            $scope.nodes[index].stats.peers = data.stats.peers;
+                            $scope.nodes[index].stats.gasPrice = data.stats.gasPrice;
+                            $scope.nodes[index].stats.uptime = data.stats.uptime;
 
 						if( !_.isUndefined(data.stats.latency) && _.get($scope.nodes[index], 'stats.latency', 0) !== data.stats.latency )
 						{
