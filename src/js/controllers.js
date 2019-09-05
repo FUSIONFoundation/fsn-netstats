@@ -93,11 +93,6 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, $localStorage, soc
 		$localStorage.pinned = $scope.pinned;
 	}
 
-	var timeout = setInterval(function ()
-	{
-		$scope.$apply();
-	}, 1000);
-
 	$scope.getNumber = function (num) {
 		return new Array(num);
 	}
