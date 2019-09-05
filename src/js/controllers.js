@@ -208,15 +208,21 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, $localStorage, soc
 							data.stats.block.arrived = best.arrived;
 						}
 
-						$scope.nodes[index].history = data.history;
+						$scope.$apply(function(){
+                            $scope.nodes[index].history = data.history;
+                        })
 					}
 
+                    $scope.$apply(function() {
                         $scope.nodes[index].stats = data.stats;
+                    });
 
 
 					if( !_.isUndefined(data.stats.latency) && _.get($scope.nodes[index], 'stats.latency', 0) !== data.stats.latency )
 					{
-						$scope.nodes[index].stats.latency = data.stats.latency;
+                        $scope.$apply(function() {
+                            $scope.nodes[index].stats.latency = data.stats.latency;
+                        });
 
 						latencyFilter($scope.nodes[index]);
 					}
@@ -243,11 +249,15 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, $localStorage, soc
 							data.block.arrived = best.arrived;
 						}
 
-						$scope.nodes[index].history = data.history;
+                        $scope.$apply(function() {
+                            $scope.nodes[index].history = data.history;
+                        });
 					}
 
-					$scope.nodes[index].stats.block = data.block;
-					$scope.nodes[index].stats.propagationAvg = data.propagationAvg;
+                    $scope.$apply(function() {
+                        $scope.nodes[index].stats.block = data.block;
+                        $scope.nodes[index].stats.propagationAvg = data.propagationAvg;
+                    });
 
 					updateBestBlock();
 				}
@@ -262,7 +272,9 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, $localStorage, soc
 					var node = $scope.nodes[index];
 
 					if( !_.isUndefined(node) && !_.isUndefined(node.stats.pending) && !_.isUndefined(data.pending) )
-						$scope.nodes[index].stats.pending = data.pending;
+                        $scope.$apply(function() {
+                            $scope.nodes[index].stats.pending = data.pending;
+                        });
 				}
 
 				break;
@@ -276,16 +288,20 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, $localStorage, soc
 
 					if( !_.isUndefined(node) && !_.isUndefined(node.stats) )
 					{
+                        $scope.$apply(function() {
                             $scope.nodes[index].stats.active = data.stats.active;
                             $scope.nodes[index].stats.mining = data.stats.mining;
                             $scope.nodes[index].stats.hashrate = data.stats.hashrate;
                             $scope.nodes[index].stats.peers = data.stats.peers;
                             $scope.nodes[index].stats.gasPrice = data.stats.gasPrice;
                             $scope.nodes[index].stats.uptime = data.stats.uptime;
+                        });
 
 						if( !_.isUndefined(data.stats.latency) && _.get($scope.nodes[index], 'stats.latency', 0) !== data.stats.latency )
 						{
-							$scope.nodes[index].stats.latency = data.stats.latency;
+                            $scope.$apply(function() {
+                                $scope.nodes[index].stats.latency = data.stats.latency;
+                            });
 
 							latencyFilter($scope.nodes[index]);
 						}
@@ -301,11 +317,15 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, $localStorage, soc
 
 				if( index >= 0 )
 				{
-					$scope.nodes[index].info = data.info;
-                    $scope.nodes[index].info.name = $scope.nodes[index].info.name.substr(0,32)
+                    $scope.$apply(function() {
+                        $scope.nodes[index].info = data.info;
+                        $scope.nodes[index].info.name = $scope.nodes[index].info.name.substr(0, 32)
+                    });
 
                     if( _.isUndefined($scope.nodes[index].pinned) )
-						$scope.nodes[index].pinned = false;
+                        $scope.$apply(function() {
+                            $scope.nodes[index].pinned = false;
+                        });
 
 					// Init latency
 					latencyFilter($scope.nodes[index]);
@@ -378,7 +398,9 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, $localStorage, soc
 				if( index >= 0 )
 				{
 					if( !_.isUndefined(data.stats) )
-						$scope.nodes[index].stats = data.stats;
+                        $scope.$apply(function() {
+                            $scope.nodes[index].stats = data.stats;
+                        });
 
 					// toastr['error']("Node "+ $scope.nodes[index].info.name +" went away!", "Node connection was lost!");
 
@@ -398,7 +420,8 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, $localStorage, soc
 
 						if( !_.isUndefined(node) && !_.isUndefined(node.stats) && !_.isUndefined(node.stats.latency) && node.stats.latency !== data.latency )
 						{
-							node.stats.latency = data.latency;
+                                node.stats.latency = data.latency;
+
 							latencyFilter(node);
 						}
 					}
@@ -474,7 +497,9 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, $localStorage, soc
 			data.history = $scope.nodes[index].history;
 		}
 
-		$scope.nodes[index] = data;
+        $scope.$apply(function() {
+            $scope.nodes[index] = data;
+        });
 
 		updateActiveNodes();
 
@@ -568,13 +593,15 @@ netStatsApp.controller('StatsCtrl', function($scope, $filter, $localStorage, soc
 
 			if( bestBlock !== $scope.bestBlock )
 			{
-				$scope.bestBlock = bestBlock;
-				$scope.bestStats = _.max($scope.nodes, function (node) {
-					return parseInt(node.stats.block.number);
-				}).stats;
+                $scope.$apply(function() {
+                    $scope.bestBlock = bestBlock;
+                    $scope.bestStats = _.max($scope.nodes, function (node) {
+                        return parseInt(node.stats.block.number);
+                    }).stats;
 
-				$scope.lastBlock = $scope.bestStats.block.arrived;
-				$scope.lastDifficulty = $scope.bestStats.block.difficulty;
+                    $scope.lastBlock = $scope.bestStats.block.arrived;
+                    $scope.lastDifficulty = $scope.bestStats.block.difficulty;
+                });
 			}
 		}
 	}
