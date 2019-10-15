@@ -138,6 +138,7 @@ api.on('connection', function (spark)
 						action: 'add',
 						data: info
 					});
+
 				}
 			});
 		}
@@ -253,9 +254,13 @@ api.on('connection', function (spark)
 				{
 					if(stats !== null)
 					{
+						// Added node information to stats
+                        let info = Nodes.getNode({ id: data.id}).info;
+                        data.info = info;
+
 						client.write({
 							action: 'stats',
-							data: stats
+							data: data
 						});
 
 						console.success('API', 'STA', 'Stats from:', data.id);

@@ -3,6 +3,55 @@
   <component name="ChangeListManager">
     <list default="true" id="d8916823-e5d0-42ab-a869-6bd9f1ff2ab0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gruntfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PackageForELB.sh" beforeDir="false" afterPath="$PROJECT_DIR$/PackageForELB.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lib/angular.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/lib/angular.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/netstats.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/netstats.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/css/animation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/css/minimal-icons-codes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/css/minimal-icons-embedded.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/css/minimal-icons-ie7-codes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/css/minimal-icons-ie7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/css/minimal-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/css/toastr.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/fonts/Simple-Line-Icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/fonts/minimal-icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/fonts/minimal-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/fonts/minimal-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/fonts/minimal-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/images/fsn-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/controllers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/directives.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/filters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/angular.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/angular.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/angular.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/d3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/d3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/d3.tip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/jquery-1.11.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/jquery-1.11.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/jquery-1.11.3.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/jquery.sparkline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/jquery.sparkline.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/lodash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/lodash.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/moment.en.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/primus.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/lib/toastr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/views/index.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-lite/views/layout.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/angular.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/lib/angular.min.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,28 +63,35 @@
     <session id="-959677123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
-          <entry key="project.open.time.0" value="11" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.5" value="2" />
+          <entry key="project.closed" value="24" />
+          <entry key="project.open.time.0" value="17" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Bash" value="6" />
           <entry key="CSS" value="123" />
           <entry key="Jade" value="266" />
-          <entry key="JavaScript" value="646" />
+          <entry key="JavaScript" value="843" />
+          <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Bash" value="1" />
           <entry key="CSS" value="1" />
-          <entry key="JSON" value="3" />
+          <entry key="JSON" value="5" />
           <entry key="Jade" value="3" />
-          <entry key="JavaScript" value="36" />
+          <entry key="JavaScript" value="54" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="SVG" value="1" />
           <entry key="TypeScript" value="1" />
         </counts>
@@ -45,28 +101,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/index.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="173" column="22" selection-start-line="173" selection-start-column="13" selection-end-line="173" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="257">
+              <caret line="253" column="77" selection-start-line="253" selection-start-column="77" selection-end-line="253" selection-end-column="77" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/layout.jade">
+        <entry file="file://$PROJECT_DIR$/src/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="198">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/controllers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/directives.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8136">
+              <caret line="452" column="20" selection-start-line="452" selection-start-column="20" selection-end-line="452" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -74,23 +139,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+            <state relative-caret-position="5220">
+              <caret line="290" column="19" selection-start-line="290" selection-start-column="19" selection-end-line="290" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="262" column="38" selection-start-line="262" selection-start-column="38" selection-end-line="262" selection-end-column="38" />
+              <folding>
+                <element signature="e#5083#5572#0" />
+                <element signature="e#5617#5856#0" />
+                <element signature="e#5899#6586#0" />
+                <element signature="e#6625#6947#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="111" column="65" selection-start-line="111" selection-start-column="65" selection-end-line="111" selection-end-column="65" />
+            <state relative-caret-position="162">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding>
-                <element signature="e#3988#4496#0" />
-                <element signature="e#4537#5040#0" />
-                <element signature="e#5083#5572#0" />
-                <element signature="e#5617#5856#0" />
-                <element signature="e#7004#7353#0" />
+                <element signature="n#!!block;n#dependencies#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -99,17 +175,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package-lock.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9144">
-              <caret line="508" column="54" selection-start-line="508" selection-start-column="54" selection-end-line="508" selection-end-column="54" />
+            <state relative-caret-position="13086">
+              <caret line="727" column="21" selection-start-line="727" selection-start-column="21" selection-end-line="727" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/history.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/collection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="361" column="75" selection-start-line="361" selection-start-column="75" selection-end-line="361" selection-end-column="75" />
+            <state relative-caret-position="89">
+              <caret line="134" column="38" lean-forward="true" selection-start-line="134" selection-start-column="28" selection-end-line="134" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/node.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -118,22 +203,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>myTicketNumber : this.getmyTicketNumber()</find>
-      <find>ticketNumber</find>
-      <find>stats.myTicketNumber</find>
-      <find>stats.mining</find>
-      <find>myTicketNumber</find>
-      <find>substr</find>
-      <find>console.l</find>
-      <find>myTicket</find>
-      <find>No Ticket</find>
-      <find>dx</find>
-      <find>update</find>
-      <find>$scope.</find>
-      <find>owns</find>
-      <find>new Node</find>
-      <find>websocket</find>
-      <find>3000</find>
       <find>WS_SECRET</find>
       <find>hello</find>
       <find>apply</find>
@@ -145,9 +214,25 @@
       <find>timeout</find>
       <find>StatsCtrl</find>
       <find>setTime</find>
-      <find>$scope.nodes</find>
       <find>8000</find>
+      <find>setInterval</find>
+      <find>$scope.$apply()</find>
+      <find>setTimeout</find>
+      <find>$scope.nodes</find>
+      <find>mini</find>
+      <find>1.2.28</find>
       <find>ng-repeat</find>
+      <find>lite</find>
+      <find>express</find>
+      <find>sortByOrder</find>
+      <find>lodash</find>
+      <find>collection</find>
+      <find>socket</find>
+      <find>socketAction</find>
+      <find>ip</find>
+      <find>propa</find>
+      <find>propa</find>
+      <find>propagation</find>
     </findStrings>
     <replaceStrings>
       <replace>Lato</replace>
@@ -165,7 +250,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/css/minimal-icons-embedded.css" />
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/js/directives.js" />
         <option value="$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/controllers.js" />
@@ -179,6 +263,11 @@
         <option value="$PROJECT_DIR$/dist/js/lib/angular.js" />
         <option value="$PROJECT_DIR$/src/js/lib/angular.js" />
         <option value="$PROJECT_DIR$/src/js/controllers.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/js/lib/angular.min.js" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/PackageForELB.sh" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -219,20 +308,12 @@
             <path>
               <item name="fsn-netstats" type="b2602c69:ProjectViewProjectNode" />
               <item name="fsn-netstats" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fsn-netstats" type="b2602c69:ProjectViewProjectNode" />
               <item name="fsn-netstats" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fsn-netstats" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fsn-netstats" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="web-app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -277,6 +358,7 @@
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Adminto_v3.1/React/light-vertical" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -357,17 +439,29 @@
       <workItem from="1567184873388" duration="2204000" />
       <workItem from="1567187663921" duration="4182000" />
       <workItem from="1567427200977" duration="9000" />
-      <workItem from="1567672891867" duration="2055000" />
+      <workItem from="1567672891867" duration="4451000" />
+      <workItem from="1567680789815" duration="1493000" />
+      <workItem from="1567686598858" duration="3000" />
+      <workItem from="1569940055332" duration="4304000" />
+      <workItem from="1569949609451" duration="626000" />
+      <workItem from="1570020606379" duration="599000" />
+      <workItem from="1570036008885" duration="957000" />
+      <workItem from="1570740653095" duration="898000" />
+      <workItem from="1571053052332" duration="912000" />
+      <workItem from="1571086102266" duration="2934000" />
+      <workItem from="1571158480857" duration="598000" />
+      <workItem from="1571170691550" duration="56000" />
+      <workItem from="1571171557216" duration="1389000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46143000" />
+    <option name="totallyTimeSpent" value="63308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="34" width="1920" height="981" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18516542" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18516542" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Grunt " order="3" side_tool="true" />
@@ -380,7 +474,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29446408" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.42520612" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -473,13 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="220" column="17" lean-forward="true" selection-start-line="220" selection-start-column="17" selection-end-line="220" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/utils/logger.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -511,20 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/express.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/node.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/lodash/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -539,55 +612,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/collection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/lib/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="349" column="39" selection-start-line="349" selection-start-column="39" selection-end-line="349" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/directives.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="452" column="20" selection-start-line="452" selection-start-column="20" selection-end-line="452" selection-end-column="20" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/layout.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9144">
-          <caret line="508" column="54" selection-start-line="508" selection-start-column="54" selection-end-line="508" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -598,19 +629,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="173" column="22" selection-start-line="173" selection-start-column="13" selection-end-line="173" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/dist/js/lib/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/js/lib/angular.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -619,31 +639,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/dist-lite/js/lib/angular.js" />
+    <entry file="file://$PROJECT_DIR$/src-lite/js/lib/angular.js" />
+    <entry file="file://$PROJECT_DIR$/PackageForELB.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="111" column="65" selection-start-line="111" selection-start-column="65" selection-end-line="111" selection-end-column="65" />
-          <folding>
-            <element signature="e#3988#4496#0" />
-            <element signature="e#4537#5040#0" />
-            <element signature="e#5083#5572#0" />
-            <element signature="e#5617#5856#0" />
-            <element signature="e#7004#7353#0" />
-          </folding>
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="3114">
+          <caret line="173" column="22" selection-start-line="173" selection-start-column="13" selection-end-line="173" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/lib/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5922">
+          <caret line="333" column="11" selection-start-line="333" selection-start-column="11" selection-end-line="333" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/lib/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="15" selection-end-line="350" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/history.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="361" column="75" selection-start-line="361" selection-start-column="75" selection-end-line="361" selection-end-column="75" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/lodash/collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="42" column="40" lean-forward="true" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/lib/primus.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/primus/primus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/.meteor/local/build/programs/web.browser/app/client/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8136">
+          <caret line="452" column="20" selection-start-line="452" selection-start-column="20" selection-end-line="452" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5220">
+          <caret line="290" column="19" selection-start-line="290" selection-start-column="19" selection-end-line="290" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!block;n#dependencies#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13086">
+          <caret line="727" column="21" selection-start-line="727" selection-start-column="21" selection-end-line="727" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/node.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="253" column="77" selection-start-line="253" selection-start-column="77" selection-end-line="253" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="134" column="38" lean-forward="true" selection-start-line="134" selection-start-column="28" selection-end-line="134" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="262" column="38" selection-start-line="262" selection-start-column="38" selection-end-line="262" selection-end-column="38" />
+          <folding>
+            <element signature="e#5083#5572#0" />
+            <element signature="e#5617#5856#0" />
+            <element signature="e#5899#6586#0" />
+            <element signature="e#6625#6947#0" />
+          </folding>
         </state>
       </provider>
     </entry>
