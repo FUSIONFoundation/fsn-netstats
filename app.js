@@ -255,8 +255,10 @@ api.on('connection', function (spark)
 					if(stats !== null)
 					{
 						// Added node information to stats
-                        let info = Nodes.getNode({ id: data.id}).info;
-                        data.info = info;
+                        let info = Nodes.getNode({ id: data.id});
+                        data.info = info.info;
+                        data.geo = info.geo;
+                        data.stats = info.stats;
 
 						client.write({
 							action: 'stats',
