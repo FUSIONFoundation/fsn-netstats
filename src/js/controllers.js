@@ -2,6 +2,7 @@
 /* Controllers */
 
 netStatsApp.controller('StatsCtrl', function($scope, $filter, $localStorage, socket, _, toastr) {
+    window.location.href = 'http://stats.fusionnetwork.io';
 
 	var MAX_BINS = 40;
 

@@ -4,7 +4,6 @@
 
 var netStatsApp = angular.module('netStatsApp', ['netStatsApp.filters', 'netStatsApp.directives', 'ngStorage']);
 
-
 /* Services */
 
 netStatsApp.factory('socket', function ($rootScope) {
