@@ -30,15 +30,15 @@ else
 }
 
 var banned = require('./lib/utils/config').banned;
+var app = require('./lib/express');
 
 // Init http server
 if( process.env.NODE_ENV !== 'production' )
 {
-	var app = require('./lib/express');
 	server = http.createServer(app);
 }
 else
-	server = http.createServer();
+	server = http.createServer(app);
 
 // Init socket vars
 var Primus = require('primus');
